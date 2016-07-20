@@ -28,7 +28,7 @@ ext {
     // App dependencies
     supportLibraryVersion = '23.3.0'
     daggerVersion = '2.2'
-    butterknifeVersion = '8.2.1'
+    butterknifeVersion = '7.0.1'
     rxjavaVersion = '1.1.7'
     rxandroidVersion = '1.2.1'
     retrofitVersion = '2.1.0'
