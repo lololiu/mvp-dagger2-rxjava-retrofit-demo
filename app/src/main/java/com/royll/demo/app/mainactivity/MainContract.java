@@ -13,11 +13,11 @@ import java.util.List;
 public interface MainContract {
     interface View extends BaseView{
         void initViews();
-        void initMovieList(MovieBean movieBean);
+        void updateMovieList(MovieBean movieBean);
         void showToast(String text);
     }
     interface Presenter extends BasePresenter{
         void toast(String text);
-        void getMovies(int page);
+        void getMovies(int page,int pagecount);
     }
 }
